@@ -1,0 +1,80 @@
+/* CSS Document */
+#logincontrol {
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+	border: solid;
+	border-color: #A2ADBC;
+}
+
+.header {
+	height: 100px;
+    width: auto;
+	background-color:#3D72A4;
+}
+
+.button:active {
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.button {
+	background-color:#DF9496;
+	color: #4F4F4F;
+	height: 25px;
+	width: 65px;
+	border: solid;
+	border-width: thin;
+	border-color: #A2ADBC;
+	font-weight: bold;
+}
+
+.label {
+	color: #4B4B4B;
+	font-weight: bold;
+}
+
+body {
+	background-color: #FFFFFF;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+	background-color:#669999;
+	border-style: dashed;
+	border-width: thin;
+	height: 25px;
+}
+.navitem {
+	width: 10%; 
+	height: inherit;
+	float:left; 
+	text-align:center;
+	border: none;
+	border-right-style: dashed;
+	border-right-width: thin;
+	background-color:#669999;
+}
+
+.navitemlast {
+	width: 10%; 
+	height: inherit;
+	float: right; 
+	text-align:center;
+	border: none;
+	border-left-style: dashed;
+	border-left-width: thin;
+	background-color:#669999;
+}
+
+.navlink {
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	padding-top: 3px;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZeFWConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns="http://www.mvpanchal.org/zefw/config"
+   xsi:schemaLocation="http://www.mvpanchal.org/zefw/config zefw.xsd">
+   <Models>
+       <Model name="user" type="com.mvpanchal.eclinic.model.User"/>
+   </Models>
+   
+   <Views>
+       <View name="login" page="login.jsp"/>
+       <View name="adminhome" page="adminhome.jsp"/>
+   </Views>
+   
+   <Actions>
+       <Action name="login" handler="com.mvpanchal.eclinic.actionhandler.LoginHandler">
+           <ModelNames>
+               <ModelName name="user"/>
+           </ModelNames>
+           <ActionValidators>
+               <ActionValidator type="com.mvpanchal.eclinic.actionvalidator.LoginValidator"/>
+           </ActionValidators>
+       </Action>
+   </Actions>
+   
+   <ApplicationProperties filepath="D:/java/Project/eclinic/eclinic.properties"/>
+
+</ZeFWConfig>
