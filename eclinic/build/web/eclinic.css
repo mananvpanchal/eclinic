@@ -12,7 +12,7 @@
 }
 
 .header {
-	height: 100px;
+	height: 70px;
     width: auto;
 	background-color:#3D72A4;
 }
@@ -22,18 +22,23 @@
 	border-color: #FFFFFF;
 }
 
+.buttonpressed {
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
 .button {
 	background-color:#DF9496;
 	color: #4F4F4F;
-	height: 25px;
-	width: 65px;
+	min-height: 25px;
+	min-width: 65px;
 	border: solid;
 	border-width: thin;
 	border-color: #A2ADBC;
 	font-weight: bold;
 }
 
-.label {
+label {
 	color: #4B4B4B;
 	font-weight: bold;
 }
@@ -78,3 +83,54 @@ body {
 	display: block;
 	padding-top: 3px;
 }
+
+.navlink:hover {
+	color: #000000;
+}
+
+.table {
+	border-spacing: 0px;
+}
+
+.table th {
+	border-left: thin;
+	border-left-style: dashed;
+	border-top: thin;
+	border-top-style: dashed;
+	border-bottom: thin;
+	border-bottom-style: dashed;
+	background-color: #A2ADBC;
+	margin-left: 5px;
+}
+
+.table th:last-child {
+	border: thin;
+	border-style: dashed;
+	background-color: #A2ADBC;
+}
+
+.table td {
+	border-left: thin;
+	border-left-style: dashed;
+	border-bottom: thin;
+	border-bottom-style: dashed;
+}
+
+.table td:last-child {
+	border-left: thin;
+	border-left-style: dashed;
+	border-right: thin;
+	border-right-style: dashed;
+	border-bottom: thin;
+	border-bottom-style: dashed;
+	
+}
+
+.table tr:nth-child(even) {
+	background-color: #D9E2E1;
+}
+
+.table tr:hover {
+	background-color: #F6F4DA;
+}
+

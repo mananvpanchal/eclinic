@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Doctor Desk</title>
+<link rel="stylesheet" type="text/css" href="eclinic.css"/>
+</head>
+<body>
+<div align="center" class="header"><h3 style="color:#FFFFFF; padding-top: 27px;">E-Clinic - Doctor Desk - Patient Case</h3></div>
+<div align="center" class="navbar">
+<div class="navitem" style="width: 12%;"><a href="searchcase.html" class="navlink">Search Case</a></div>
+<div class="navitem"><a href="newcase.html" class="navlink">New Case</a></div>
+<div class="navitem"><a href="#" class="navlink">Waiting</a></div>
+<div class="navitem" style="width: 12%;"><a href="#" class="navlink">Dispatched</a></div>
+<div class="navitemlast"><a href="#" class="navlink">Logout</a></div>
+</div>
+<br/>
+<div align="center">
+<label style="font-size: 16px;">Patient detail</label>
+</div>
+<div style=" padding: 20px; border: solid; border-color: #A2ADBC;">
+<table style="float: left;">
+<tr>
+<td style="vertical-align: top;"><label id="namelbl" for="namefield">Name&nbsp;</label></td>
+<td style="vertical-align: top;"><input id="namefield" type="text" size="30"/></td>
+</tr>
+<tr>
+<td style="vertical-align: top;"><label id="agelbl" for="agefield">Age&nbsp;</label></td>
+<td style="vertical-align: top;"><input id="agefield" type="text" size="5"/></td>
+</tr>
+<tr>
+<td style="vertical-align: top;"><label id="sexlbl" for="sexfield">Sex&nbsp;</label></td>
+<td style="vertical-align: top;"><input id="sexfield" type="text" size="5" /></td>
+</tr>
+</table>
+<table style="padding-left: 10px;">
+<tr>
+<td style="vertical-align: top;"><label id="addresslbl" for="addressfield">Address&nbsp;</label></td>
+<td style="vertical-align: top;"><textarea id="addressfield" rows="2" cols="40"></textarea></td>
+<td style="padding-left: 15px; padding-right: 15px; vertical-align: top;"><input type="button" class="button" value="Previous Detail" /></td>
+<td style="vertical-align: top;"><input type="button" class="button" value="History" /></td>
+</tr>
+<tr>
+<td><label id="phonenelbl" for="phonenefield">Phone No.&nbsp;</label></td>
+<td><input type="text" id="phonenofield"/>
+</td>
+</tr>
+</table>
+<hr/>
+<table>
+<tr>
+<td style="vertical-align: top;"><label id="symptomslbl" for="symptomsfield">Symptoms&nbsp;</label></td>
+<td>
+<textarea id="symptomsfield" rows="2" cols="40"></textarea>
+</td>
+<td style="vertical-align: top;" align="right">
+<label id="diagnosislbl" for="diagnosisfield">Diagnosis&nbsp;</label></td>
+<td>
+<textarea id="diagnosisfield" rows="2" cols="40"></textarea>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">
+<label id="medicineslbl" for="medicinesfield">Medicines&nbsp;</label>
+</td>
+<td colspan="3"><input id="madicineselect" type="text" size="100"/></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="3" >
+<textarea id="medicinesfield" rows="2" cols="100"></textarea>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">
+<label id="reportslbl" for="reportsfield">Reports&nbsp;</label>
+</td>
+<td>
+<textarea id="reportsfield" rows="2" cols="40"></textarea>
+</td>
+<td style="vertical-align: top;" align="right">
+<label id="reportsremarklbl" for="reportsremarkfield">Reports Remark&nbsp;</label>
+</td>
+<td>
+<textarea id="reportsremarkfield" rows="2" cols="40"></textarea>
+</td>
+</tr>
+<tr>
+<td style="vertical-align: top;">
+<label id="generalremarklbl" for="generalremarkfield">General Remark&nbsp;</label>
+</td>
+<td colspan="3">
+<textarea id="generalremarkfield" rows="2" cols="100"></textarea>
+</td>
+</tr>
+<tr height="20px;">
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="submit" value="Done" class="button" style="min-height: 30px; min-width: 100px;"/></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -17,34 +17,16 @@ public class Case implements Model {
         this.caseNo = caseNo;
     }
 
-    public String getDateOfCase() {
-        return dateOfCase;
+    public Medical[] getMedicals() {
+        return medicals;
     }
 
-    public void setDateOfCase(String dateOfCase) {
-        this.dateOfCase = dateOfCase;
-    }
-
-    public String getDiagnosis() {
-        return diagnosis;
-    }
-
-    public void setDiagnosis(String diagnosis) {
-        this.diagnosis = diagnosis;
-    }
-
-    public String getMadicines() {
-        return madicines;
-    }
-
-    public void setMadicines(String madicines) {
-        this.madicines = madicines;
+    public void setMedicals(Medical[] medicals) {
+        this.medicals = medicals;
     }
     
     protected String caseNo;
-    protected String dateOfCase;
-    protected String diagnosis;
-    protected String madicines;
+    protected Medical[] medicals;
 
     public void actionInit(ModelInfo info) {
         
