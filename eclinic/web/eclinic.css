@@ -36,16 +36,19 @@
 	border-width: thin;
 	border-color: #A2ADBC;
 	font-weight: bold;
+	font-size: 13px;
 }
 
 label {
 	color: #4B4B4B;
 	font-weight: bold;
+	font-size: 14px;
 }
 
 body {
-	background-color: #FFFFFF;
+	background-color: #F4F3EE;
 	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
 }
 
 .navbar {

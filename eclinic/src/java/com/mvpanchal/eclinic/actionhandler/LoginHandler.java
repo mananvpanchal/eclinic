@@ -41,7 +41,7 @@ public class LoginHandler extends AbstractActionHandler {
             if (user.getPassword().equals(dbPassword)) {
                 UserSessionStore.createUserSession(entities, user);
                 if (user.getUserType() != null && user.getUserType().equals(UserType.CASEREGISTRAR)) {
-                    viewName = "caseregisterhome";
+                    viewName = "newcase";
                 } else if (user.getUserType() != null && user.getUserType().equals(UserType.DOCTOR)) {
                     viewName = "doctorhome";
                 } else if (user.getUserType() != null && user.getUserType().equals(UserType.PHARMACIST)) {
